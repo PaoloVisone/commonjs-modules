@@ -6,3 +6,5 @@ function getHobby(hobbyOne, hobbytwo, hobbythree) {
 }
 
 console.log(getHobby("Calcio", "Musica", "Palestra"));
+
+module.exports = getHobby("Calcio", "Musica", "Palestra");

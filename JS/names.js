@@ -1,14 +1,16 @@
 // Creo una funzione che restituisce nome e cognome
 
 function getName(firstName, lastName) {
-    const person = {
+    const yourName = {
         name: firstName,
         surname: lastName
     }
-    return person
+    return yourName
 }
 
 console.log(getName("Paolo", "Visone"));
+
+module.exports = getName("Paolo", "Visone");
 
 
 
